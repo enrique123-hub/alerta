@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Fenomenos.Fenomenos">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/IDButtonGeologico"
+                android:layout_width="wrap_content"
+                android:layout_height="101dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/geologicos"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/IDButtonSanitario"
+                android:layout_width="wrap_content"
+                android:layout_height="101dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/sanitarios"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonSocial" />
+
+            <Button
+                android:id="@+id/IDButtonHidrometeorologico"
+                android:layout_width="wrap_content"
+                android:layout_height="101dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/hidrometeorilogico"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonGeologico" />
+
+            <Button
+                android:id="@+id/IDButtonQuimico"
+                android:layout_width="wrap_content"
+                android:layout_height="101dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/quimicos"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonHidrometeorologico" />
+
+            <Button
+                android:id="@+id/IDButtonSocial"
+                android:layout_width="wrap_content"
+                android:layout_height="101dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/social"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonQuimico" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

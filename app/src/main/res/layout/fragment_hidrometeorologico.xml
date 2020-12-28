@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Fenomenos.Hidrometerologico.Hidrometeorologico">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/imagenhidro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/hidro"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/IDButtonHidroHuracan"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:background="@mipmap/hidrohuracan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imagenhidro" />
+
+            <Button
+                android:id="@+id/IDuttonHidroTropical"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidrotropical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonHidroHuracan" />
+
+            <Button
+                android:id="@+id/IDuttonHidroDepresion"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidrodepresion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDuttonHidroTropical" />
+
+            <Button
+                android:id="@+id/IDuttonHidroOnda"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidronda"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDuttonHidroDepresion" />
+
+            <Button
+                android:id="@+id/IDuttonHidroElectrica"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidrotormenta"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDuttonHidroOnda" />
+
+            <Button
+                android:id="@+id/IDButtonHidroSequia"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidrosequia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDuttonHidroElectrica" />
+
+            <Button
+                android:id="@+id/IDButtonHidroCalor"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidrocalor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonHidroSequia" />
+
+            <Button
+                android:id="@+id/IDButtonHidroFrio"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidrofrio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonHidroCalor" />
+
+            <Button
+                android:id="@+id/IDButtonHidroVientos"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidrovientos"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonHidroFrio" />
+
+            <Button
+                android:id="@+id/IDButtonHidroInundaciones"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidroinundaciones"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonHidroVientos" />
+
+            <Button
+                android:id="@+id/IDButtonHidroHelada"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidrohelada"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonHidroInundaciones" />
+
+            <Button
+                android:id="@+id/IDButtonHidroGranizo"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/hidrograniso"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonHidroHelada" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

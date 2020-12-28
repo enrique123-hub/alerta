@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Fenomenos.Social.Social">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/imagenSocial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/socio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/IdButtonConUrbano"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:background="@mipmap/trioedificioviejo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imagenSocial" />
+
+            <Button
+                android:id="@+id/IDButtonConTrasporte"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/triosustancias"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IdButtonConUrbano" />
+
+            <Button
+                android:id="@+id/IDButtonConFuga"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/triosustanciastoxi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonConTrasporte" />
+
+            <Button
+                android:id="@+id/IDButtonConCrecimiento"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/triocrecimiento"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonConFuga" />
+
+            <Button
+                android:id="@+id/IDButtonConContaminacion"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/triocontaminacion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonConCrecimiento" />
+
+            <Button
+                android:id="@+id/IDButtonConDeforestacion"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/triodeforestacion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonConContaminacion" />
+
+            <Button
+                android:id="@+id/IDButtonConDelincuencia"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/triodelincuencia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonConDeforestacion" />
+
+            <Button
+                android:id="@+id/IDButtonConHackes"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/triohackers"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonConDelincuencia" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HacerEnCasos.Hacer_en_caso">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/IDButtonConsentracion"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="4dp"
+                android:background="@mipmap/consentacion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/IDButtonIncendioFore"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/incendiofore"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonConsentracion" />
+
+            <Button
+                android:id="@+id/IDButtonIncendioUrba"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/incurb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonIncendioFore" />
+
+            <Button
+                android:id="@+id/IDButtonInundacion"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/inundaciones"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonIncendioUrba" />
+
+            <Button
+                android:id="@+id/IDButtonLLuviasFuertes"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/lluviafuertes"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonInundacion" />
+
+            <Button
+                android:id="@+id/IDButtonSismos"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/sismo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonLLuviasFuertes" />
+
+            <Button
+                android:id="@+id/IDButtonTormentaElectrica"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/tormentaelec"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonSismos" />
+
+            <Button
+                android:id="@+id/IDButtonTsunami"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/tsunami"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/IDButtonTormentaElectrica" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

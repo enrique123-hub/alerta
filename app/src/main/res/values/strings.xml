@@ -1,0 +1,536 @@
+<resources>
+    <string name="app_name">Alerta Ensenada</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_fenomeno">Fenomenos perturbadores</string>
+    <string name="menu_avisos">Avisos</string>
+    <string name="menu_pronostico">Pronostico del clima</string>
+    <string name="menu_numEmergencia">Numeros de emergencias</string>
+    <string name="menu_hacerEnCasos">¿Qué hacer en casos de?</string>
+    <string name="menu_mochila">Mochila de emergencia</string>
+    <string name="menu_planFamiliar">Plan familiar</string>
+
+    <string name="fen_geologico">Geologico</string>
+    <string name="fen_Hidrometeorilogico">Hidrometeorologico</string>
+    <string name="fen_socio_organizativo">Socio-Organizativo</string>
+    <string name="fen_quimico_tecnologico">Quimico tecnologico</string>
+    <string name="fen_sanitario_ecologico">Sanitario ecologico</string>
+
+    <string name="button_FenomenosPerturvadores">Fenomenos perturvadores</string>
+    <string name="button_Avisos">Avisos</string>
+    <string name="button_PronosticoClima">Pronostico de clima</string>
+    <string name="button_NumeroEmergencias">Numero de emergencias</string>
+    <string name="button_HacerEnCasos">¿Que hacer en casos de?</string>
+    <string name="button_mochila">Mochila de emergencia</string>
+
+    <string name="Button_atlasDeMexico">Atlas Nacional De Mexico</string>
+    <string name="Button_CNPD">Centro Nacional De Prevención de Desastres</string>
+    <string name="Button_CoordinacionNacionalPC">Coordinacion nacional de Proteccion Civil</string>
+
+    <string name="TextPolicia">Policia</string>
+    <string name="TextBombero">Bomberos</string>
+    <string name="textImss">Ambulancias</string>
+    <string name="textCFE">CFE</string>
+    <string name="textCESPE">CESPE</string>
+
+    <string name="textFallo">   En geologia una falla es una fractura o zona
+                                de fracturas a lo largo de la cual ha ocurrido
+                                un desplazamineto relativo de los bloques
+                                paralelos a la fractura.
+                                Esencialmente, una falla es una
+                                descontinuacion que se forma debido a la
+                                fractura  de grandes bloques de rocas en la
+                                tierra cuando las fuerzas tectonicas superan
+                                la resistencia  de las rocas. El moviento
+                                causante de esa dislocación puede tener
+                                diversas direcciones: vertical, horizontal o una
+                                combinación de ambas.
+
+                                Cuando la actividad en una falla es repentina
+                                y brusca, se puede producir un gran
+                                terremoto, provocando incluso una ruptura en
+                                la superficie terrestre. Lo que genera y se
+                                evidencia en la superficie del terreno es una
+                                forma topografica llamada escarpede
+                                falla. Estos vestigios de la falla es la superficie
+                                tienden a desaparacer por la acción de la
+                                erosión, provocados por la lluvia y el viento, y
+                                por la presencia de vegetacion o actividad
+                                humana</string>
+
+    <string name="textSismo">   Un sismo es un temblor, sacudida o
+                                movimiento repentino de la superficie
+                                terrestre, los terremotos ocurren a lo largo de
+                                grietas(llamadas fallas) en la superficie
+                                terrestre. Los terremotos se pueden sentir a
+                                traves de grandes areas aunque por lo general
+                                duran menos de una minuto</string>
+
+    <string name="textTsunami"> El tsunami es un tren de olas gigantiscas
+                                que se propagan en olas en los puertos
+                                generadas por pertubaciones fuertes de la
+                                superficie del oceano. El tsunami tiene 3
+                                etapas: Generacion(donde se produce)
+                                propaganda(trayecto recorrido por la ola) e
+                                inuncacion(llegada de las olas).
+
+                                Es necesario resaltar que hay otros varios tipos de
+                                tsunamis, esto depende de si intesidad, por
+                                lo que no todos son destructivos. Ante dicha
+                                informacion, la cruz roja lanzo una guia
+                                basica sobre que hacer antes, durant y
+                                despues de un desastre natural de esta
+                                magnitud</string>
+
+    <string name="textVolcal">  Un volvan es una abertura de la tierra por
+                                donde sale el magna, que es una roca fundida
+                                formada en su interior, los volcanes toman
+                                generalmente forma de cerro o montaña, por
+                                la acumulacion de capas de lava y cenizas
+                                alrededor de la abertura. La ceniza emitida
+                                por los volcanes esta formada por
+                                fragmentos de roca del tamaño de la arena y
+                                la gravilla, que se pulverizan durante las
+                                explosiones volcanicas, los volcanes se
+                                llaman inactivos cuando ha estaado miles de
+                                años sin actividad o han hecho erupcion de
+                                actividad interrumpidas por lapsos de reposo
+                                variables.
+
+                                Es el mecanismo del sistema nacional de
+                                proteccion que mantiene informacion sobre
+                                los diferentes niveles de peligro que presentan
+                                la actividad volcanica, El color verde indica
+                                que puedes desarrollar las actividades con
+                                normalidad, El color amarrillo significa que tu
+                                debes estar alerta y pendiente de lo que te
+                                digan las autoridades y las noticias y sobre
+                                todos seguir las indicaciones que te den, El
+                                color rojo es la señal de alarmar e indicar que la
+                                poblacion debera ubicarse en lugares
+                                seguros</string>
+
+    <string name="textDerrumbe">    Un corrimiento de tierra, deslave o derrumbe
+                                    es el desplazamiento de una masa grande de
+                                    tierra que se desprende por una vertienete o
+                                    ladera, precipitandose por ella.
+
+                                    Un ejemplo de deslizamiento en masa se
+                                    produjo en la presa de Bajón en el noreste de
+                                    Italia en 1963 y ocasiono la muerte de unas
+                                    2000 personas, al caer en la presa centenares
+                                    de millones de m^3  de tierra, arboles y rocas
+                                    causaron una ola gigantesca que arraso
+                                    varias poblaciones de la cuenca, en especial,
+                                    a Longorones</string>
+
+    <string name="textHundimientos">    Un hundimiento de tierra es un movimiento de
+                                        la superficie terrestre en el que predomina el
+                                        sentido vertical descendente y que tiene lugar
+                                        en areas achinales o de mut baja pendiente.
+                                        Este movimiento puede ser inducido por
+                                        distintas causas y se puede desarrollar con
+                                        velocidades muy rapidas o muy lentas segun
+                                        sea el mecanismo que da lugar a tal
+                                        inestabilidad.
+
+                                        Si el movimiento vertical es lento o muy lento
+                                        (metros o centimetros / año) y afecta a una
+                                        superficie amplia(km2) con frecuenciase
+                                        habla de subsidencia. Si el movimiento es
+                                        muy rapida(m/s) se puede hablar de colapso.</string>
+
+    <string name="textErosion"> Se conoce como erosion del suelo al proceso
+                                que se da forma natural cuando las rocas y
+                                el suelo se van desprendiendo de la superficie
+                                terrestre transladandose a otro sitio,
+                                especialmente por la accion del agua y el
+                                viento. La erosion del suelo es lo que provoca
+                                los cambios de los paisajes, un proceso que
+                                puede ser muy lento, de miles de años, o que
+                                se puede acelerar a traves de activiades.
+        .
+                                La erosion consiste en la movilizacionde las
+                                rocas, o sus padezos, arena o polvo de unos
+                                sitios a otros, ya sea por el viento, la propia
+                                gravedad o el agua, por ejemplo, lso rios
+                                transportan sedimientos de las mantañas, ya
+                                sea prqueños trosos de rocas, arena o polvo
+                                Durante su trancurso los van arrastrando y
+                                finalmente los depositan en otro sitio,
+                                cambiendo la fisionomia del paisaje.</string>
+
+    <string name="textHuracan"> Si los vientos de un ciclon tropical igual o
+                                exceden los 33 mts por segunfo(64
+                                nudos, 74 millas por hr), entonces se
+                                denomina como un huracan (en el Oceano
+                                atlantico y el pacifico nororiental y
+                                norcentral). Los huracanes se clasfican en la
+                                escala de vientos de Saffir-Simpson segun la
+                                intencidad del viento. Aquellos huracanes con
+                                vientos de las categorias 3, 4 ó 5 son
+                                huracanes de gran intensidad</string>
+
+    <string name="textTropical">    Un ciclon tropical que exhibe vientos
+                                    maximos sostenidos en a superficie durante
+                                    1 minuto desde 17.5 mts por segundo (34
+                                    nudos, 39 millas por hora) hasta 32.5 metros
+                                    por segundo (63 nudos, 73 millas por hora).
+                                    La conveccion en las tormentas tropicales
+                                    tipicamente se concentra en el centro, con
+                                    bandas exteriores en espiral que producen
+                                    mucha precipitación</string>
+
+    <string name="textDeprecion">   Un ciclon tropical donde la velocidad de
+                                    vientos maximos sostenidos en la superficie
+                                    durante 1 minuto(Segun se define en los
+                                    estandares de los EE.UU). es hasta 17 metros
+                                    por segundo(33 nudos, 38 millas por hora). A
+                                    distinción de los disturbios tropicales, las
+                                    depresiones tropicales tienen una circulación
+                                    cerrada</string>
+
+    <string name="textOnda">    Es un pequeño sistema atmosferico tropical
+                                que parece tener conveccion organizada, con
+                                un diametro de alrededor de 200 a 600 km
+                                (100 a 300 millas), procedente del tropico o
+                                los subtropicos, con caracteristicas de
+                                migracion no-frontales, y que mantiene su
+                                integridad por 24 hrs o mas. El sistema
+                                puede o no estar relacionado a disturbios
+                                perceptibles en el campo de los vientos. si el
+                                sistema esta asociado con las perturbaciones
+                                en el campo de los vientos y se propagan
+                                desde el este hacia el oeste, entonces se
+                                conocen como ondas tropicales</string>
+
+    <string name="textElectrica">   Las tormentas electricas son descargas
+                                    violentas de electricidad atmosferica, que se
+                                    manifiestan con rayos o chispas, emiten un
+                                    resplando breve de relampago(luz) y un
+                                    trueno(sonido).
+
+                                    Suele provocar fuernes vientos, lluvias
+                                    intensas y en ocaciones la caida de granizo.</string>
+
+    <string name="textSequia">  Falta de lluvias durante un periodo
+                                prolongado de tiempo que produce sequedad
+                                en los campos y escasez de agua</string>
+
+    <string name="textCalor">   Una ola de calor es un periodo prolongado
+                                de calor excesivo, a veces acompañado por
+                                humedad, en comparación con los patrones
+                                climatologicos normales de una region dada</string>
+
+    <string name="textFrio">    Una ola de frio puede ser un periodo
+                                prolongado de frio excesivo o la incursion
+                                repentina de aire muy frio en una zona
+                                extensa. Junto con heladas, las olas de frio
+                                pueden causar daños en la agricultura, la
+                                infraestructura y las propiedades.</string>
+
+    <string name="textVientos"> El viento es una de las fuerzas destructoras
+                                de la naturaleza. Se puede manifestar en
+                                forma de huracan o tornado, que no es muy
+                                frecuente en asturias, aunque si que se
+                                presenta en ocaciones con mucha intensidad
+                                causando grandes perdidas materiales y en
+                                algunos casos humanas. muchas veces va
+                                acompañado de tormentas o inundaciones,
+                                para lo que habla que seguir las pautas
+                                recomendadas para estos casos.</string>
+
+    <string name="textInundaciones">    Una inundacion es la ocupacion por parte del
+                                        agua de zonas que habitualmente estan libres
+                                        de esta, por desbordamiento de rios,
+                                        torrentes o ramblas, por lluvias torrenciales
+                                        deshielo, por subida de las mareas por
+                                        encima del nivel del mar, por maremotos,
+                                        huracanes, entre otros.</string>
+
+    <string name="textHelada">  Fenomeno atmosferico que consiste en una
+                                bajada de temperatura hasta la congelacion
+                                del agua.</string>
+
+    <string name="textGranizo"> El granizo es un tipo de precipitacion solida
+                                que presenta forma de bola. Estos trozos de
+                                hielo se originan cuando las gotas de agua
+                                muy frias se congelan en la parte superior de
+                                las nubes y caen cuando, al ser tan grandes,
+                                no pueden ser sostenidas por la corrientes
+                                de aire. En consecuencia, caen al sin
+                                fundirse.</string>
+
+    <string name="textEnvejecimiento">  Se refiere a cuando casas, edificios,
+                                        carreteras, bodegas, o inmuebles en general
+                                        se deterioran, debido a condiciones
+                                        climaticas del ambiente o a malos cuidados
+                                        por mano humana.</string>
+
+    <string name="textTranporte">   El transporte de residuos peligrosos de forma
+                                    correcta comienza con la recoleccion de los
+                                    mismos, se trasporta hasta ls instalaciones
+                                    preparadas y autorizadas y empieza su
+                                    tratamiento. Ente, se clasifica y puede ser
+                                    reautilizado o eliminado.
+
+                                    Los residuos peligros son aquellos
+                                    desechos que pueden ser reciclables o no, y
+                                    son peligros porque presenta propiedades
+                                    que representan un riesgo para el medio
+                                    ambiente y la salud de los seres vidos. Los
+                                    residuos peligrosos se clasifican
+                                    principalmente en : residuos toxicos,
+                                    corrosivos, radioactuvos e inflamables.</string>
+
+    <string name="textFuga">    Los productos quimicos y materiales
+                                preligrosos son elementos, sustancias,
+                                compuestos, residuos o mazclas, que
+                                independientemente de su estado fisico
+                                representa un riesgo latente para el
+                                ambiente, la salud o los recursos naturales,
+                                por sus caracteristicas corrosivas, reactivas,
+                                explosivas, toxicas, inflamables o biologico
+                                infecciosas.</string>
+
+    <string name="textCrecimiento"> El crecimiento urbano desordenado es
+                                    cuando un gobierno no lleva el control de
+                                    natalidad y mortalidad de una forma
+                                    adecuada a las necesidades del pais.
+
+                                    Mas especificamente en algunas ciudadas,
+                                    hay tantas personas que comienza a ser un
+                                    problema, mabiental, economico, social, etc.</string>
+
+    <string name="textContaminacion">   Es una modificaciones de esta, generalmente
+                                        provocanda por el ser humano, que la vuelve
+                                        impropia o peligrosa para el consumo, la
+                                        industria, la agricultura, la pesca y las
+                                        actividades, asi como los animales.
+
+                                        Aunque la contaminacion de las aguas puede
+                                        provenis de fuentes naturales, como la ceniza
+                                        de un volcan, o la mayor parte de la
+                                        contaminacion actual proviene de actividades
+                                        humanas.</string>
+
+    <string name="textDeforestacion">   La deforestacion o tala de arboles es un
+                                        proceso provocado generalmente por la
+                                        accion humana, en el que se destruye la
+                                        superficie forestal. Esta directamente
+                                        causada por la accion de las personas sobre
+                                        a naturaleza, principalmente debido a las
+                                        talas o quemas relaizadas por la industria
+                                        maderera, asi como la obtencion de suelo
+                                        para la agricultura, mineria y ganaderia.
+
+                                        Talar arboles sin una eficiente reforestacion
+                                        resulta es un serio daño al habitad, en perdida
+                                        de biodiversidad y en aridez, tiene un impacto
+                                        adverso en la fijacion de dioxido de carbono
+                                        (CO2). Las regiones deforestadas no tienden
+                                        a una erosion del suelo y frecuentemente
+                                        degradan a las tierras no productuvas.</string>
+
+    <string name="textDelincuencia">    La delincuencia, esta vinculada a las
+                                        personas que violan las leyes y al conjunto de
+                                        los delitos.
+
+                                        La delincuencia delictiva se ha inclementado
+                                        prograsivamente desde el año 2001,
+                                        principalemte los delitos de robo a
+                                        transeunte, secuestro, y homicidio doloso
+                                        (estos ultimos a razon de la guerra contra el
+                                        narcotrafico). Las tasas bajas de aprehencion
+                                        y encarcelamiento contribuyen al problema.</string>
+
+    <string name="textAccidentes">  El desastre tecnologico se define como una
+                                    situacion, derivada de un accidente en el que
+                                    se involucran sustancias quimicas peligrosas
+                                    o equipos peligrosos: que causan daños al
+                                    ambiente, a la salud, al componente
+                                    socioeconomico y a la infraestructura
+                                    productiva de una nacion o bien de tal magnitud
+                                    que exceden la capacidad de respuesta del
+                                    componente del afectado.
+
+                                    Daños que causan los desastres
+                                    tecnologicos: perdida de vidas humanas,
+                                    impactos ambientales, daños a la salud
+                                    humana, daños economicos y afectos
+                                    psicologicos en la poblacion.</string>
+
+    <!-- Tiempos -->
+    <string name="antes">   Antes</string>
+    <string name="durante"> Durante</string>
+    <string name="despues"> Despues</string>
+
+    <!-- Lluvias fuertes -->
+    <string name="textAntes1Lluvias"> - Informese de los puntos susceptibles de inundaciones o avenidas fuertes de agua</string>
+    <string name="textAntes2Lluvias"> - Mantengase informado en todo momento de los pronosticos de lluvia</string>
+    <string name="textAntes3Lluvias"> - Limpie los desagues de su casa</string>
+    <string name="textAntes4Lluvias"> - Tenga disponibles un botiquin de promeros auxilios, lampara y radio portatil</string>
+    <string name="textAntes5Lluvias"> - Reserve agua potable</string>
+    <string name="textAntes6Lluvias"> - Habilite tambien un sitio seguro en casa para sus mascotas</string>
+
+    <string name="textDurante1Lluvias"> - Evite salir durante la lluvia</string>
+    <string name="textDurante2Lluvias"> - Si se queda en la casa, mantenga desconectados los aparatos de energia electrica</string>
+    <string name="textDurante3Lluvias"> - Si es necesario cierre las llaves de paso de agua y gas</string>
+    <string name="textDurante4Lluvias"> - Si es inevitable trasladarse, no cruce rios, arroyos o calles con corrientes de agua, ni a pie, ni en vehculos</string>
+    <string name="textDurante5Lluvias"> - Alejese de arboles, postes o muros que podrian ser derribados</string>
+    <string name="textDurante6Lluvias"> - Tenga disponible un telefono para llamar en caso de emergencia</string>
+
+    <string name="textDespues1Lluvias"> - Tenga cuidado al volver a conectar los aparatos electricos</string>
+    <string name="textDespues2Lluvias"> - No divulgue, ni haga caso a rumores</string>
+    <string name="textDespues3Lluvias"> - Colabore en su colonia para limpiar las calles en caso de taponamiento de desagues por basura u otros objetos</string>
+    <string name="textDespues4Lluvias"> - Cerciorese que es seguro transitar por las calles e identifique las rutas mas seguras</string>
+    <string name="textDespues5Lluvias"> - Reporte a las autoridades cualquier situacion que signifique un problema para la poblacion</string>
+
+    <!-- inundaciones -->
+    <string name="textAntes1Inunda"> - No compres o construyas en zonas bajas de rios o cañadas</string>
+    <string name="textAntes2Inunda"> - Respeta los usos de suelo y normas de construción</string>
+    <string name="textAntes3Inunda"> - Localiza lugares altos y rutas para llegar al refugio temporal</string>
+    <string name="textAntes4Inunda"> - Guarda documentos importantes en bolsas de plastico selladas</string>
+    <string name="textAntes5Inunda"> - Almacene agua, alimentos enlatados, impermeables y bolsas</string>
+
+    <string name="textDurante1Inunda"> - Si es necesario dirigete al refugio temporal, lleve contigo solo lo indespensable</string>
+    <string name="textDurante2Inunda"> - En caminos inundados, no utilices automoviles</string>
+    <string name="textDurante3Inunda"> - Conserva la calma, mantente informado y atiendes las indicaciones de proteccion civil</string>
+    <string name="textDurante4Inunda"> - No trates de caminar o nadar en caminos inundados, evita cruzar el cause de los rios</string>
+    <string name="textDurante5Inunda"> - No te acerques a postes o cables de electricidad averiados</string>
+
+    <string name="textDespues1Inunda"> - Regrese a tu casa hasta asegurarse que no hay riesgo de derrumbe</string>
+    <string name="textDespues2Inunda"> - Extrema medidas de higiene en alimentos y agua</string>
+    <string name="textDespuse3Inunda"> - Desaloje el agua estancada para evitar plagas, mosquitos, enfermedades e infecciones</string>
+    <string name="textDuepues4Inunda"> - Limpia restos de sustancias toxicas o inflamables</string>
+    <string name="textDespues5Inunda"> - Reporta los heridos a las autoridades y no intentes moverlos</string>
+
+    <!-- tormentas electricas -->
+    <string name="textAntes1Electrica"> - Identifique nubes oscuras e imponentes</string>
+    <string name="textAntes2Electrica"> - Reconoce rayos y truenos distantes</string>
+    <string name="textAntes3Electrica"> - Refugiate en el interios de un edificio o en tu casa</string>
+    <string name="textAntes4Electrica"> - Resguarda los animales de campo y compañia</string>
+    <string name="textAntes5Electrica"> - El mejor lugar para protegerte es un una casa con base de madera</string>
+
+    <string name="textDurante1Electrica"> - Evita el contacto con el agua</string>
+    <string name="textDurante2Electrica"> - Refugiate en tu auto si el motos esta apagado, no tiene antena metalica y las ventanas estan cerradas</string>
+    <string name="textDurante3Electrica"> - No permanezcas en grandes espacios abiertos</string>
+    <string name="textDirante4Electrica"> - Evita lugares altos como cerros o mantañas</string>
+    <string name="textDurante5Electrica"> - No te refugies debajo de los arboles</string>
+    <string name="textDurante6Electrica"> - Apartate de postes electricos o antenas, bardas metalicas y paraguas con punta de metal</string>
+
+    <string name="textDespues1Electrica"> - Informe alas empresa de servicios de caidas de cables</string>
+    <string name="textDespues2Electrica"> - Maneje el auto solo si es necesario</string>
+    <string name="textDuspues3Electrica"> - Escuche la radio o la televicion para obtener informacion sobre emergencia y posibles instrucciones de la autoridad a cargo</string>
+
+    <!--Incendios urbanos -->
+    <string name="textAntesUrbano">     Antes</string>
+    <string name="textAntes1Urbano">   - Revisa las instalaciones electricas y de gas</string>
+    <string name="textAntes2Urbano">   - El buen estado y funcionamiento de extenciones y multiconexiones</string>
+    <string name="textAntes3Urbano">   - Que los cerillos y colillas de cigrros esten bien apagados antes de desecharlos</string>
+    <string name="textAntes4Urbano">   - Evite conectar varios aparatos en un solo enchufe</string>
+    <string name="textAntes5Urbano">   - Sustituir los fusibles por objetos metalicos</string>
+    <string name="textAntes6Urbano">   - Fumar en la cama</string>
+    <string name="textAntes7Urbano">   - Jugar con velas, cerillos y materiales inflamables</string>
+    <string name="textAntes8Urbano">   - Realiza simulaciones de evacuacion y cambate de incendios, donde se maneje el uso de extingidores</string>
+
+    <string name="textDuranteUrbano">   Durante</string>
+    <string name="textDurante1Urbano"> - Manten la calma, si es posible, apage el incendio con extintores</string>
+    <string name="textDurante2Urbano"> - Corta los suministros de gas y electricidad</string>
+    <string name="textDurante3Urbano"> - Si el incendio se propaga, sal del area</string>
+    <string name="textDurante4Urbano"> - Dirigete a la puerta de salida mas alejada del fuego</string>
+    <string name="textDurante5Urbano"> - Si hay gases y humo desplazate pecho tierra</string>
+    <string name="textDurante6Urbano"> - No busques objetos personales</string>
+    <string name="textDurante7Urbano"> - Tapate la nariz y boca con un trapo humedo</string>
+    <string name="textDurante8Urbano"> - Evita utilizar elevadores</string>
+    <string name="textDurante9Urbano"> - Si se prende tu ropa, no corras, tirate al suelo y rueda</string>
+
+    <string name="textDespuesUrbano">   Despues</string>
+    <string name="textDespues1Urbano"> - Las autoridades te indicaran cuando puedes regresar</string>
+    <string name="textDespues2Urbano"> - Reivsa las instalaciones electricas y de gas antes de volver a autilizarlos</string>
+
+    <!--Incendios forestales-->
+    <string name="textAntes1Forestal"> - Evita jugar con fuego</string>
+    <string name="textAntes2Forestal"> - Nunca encienda una fogata en temporada seca, cuando hace calor o sopla fuerte el viento</string>
+    <string name="textAntes3Forestal"> - No queme residuos de caña, restos de cultivos o matorales</string>
+    <string name="textAntes4Forestal"> - Utilice agua o tierra para apagar completamente la fogata</string>
+    <string name="textAntes5Forestal"> - Apague bien los fosforos o colillas de cigarrillos</string>
+    <string name="textAntes6Forestal"> - Recoja botellas u otros objetos de vidrio, este material con el calor y el contacto con la vegetacion seca produce fuego</string>
+
+    <string name="textDurante1Forestal"> - Alejate a un area libre en direccion contrario al humo</string>
+    <string name="textDurante2Forestal"> - Cubre nariz y boca con un trapo humedo</string>
+    <string name="textDurante3Forestal"> - Si no puedes huir, cubrete con tierra</string>
+    <string name="textDurante4Forestal"> - No intentes cruzar las llamas</string>
+    <string name="textDurante5Forestal"> - Si se prende tu ropa, rueda en el suelo tapando tu rostro</string>
+    <string name="textDurante6Forestal"> - Maneje despacio y espera que el humo se disipe</string>
+
+    <string name="textDespues1Forestal"> - Ponga a su familia en lugares seguros, como tambien a los animales domesticos y semovientes</string>
+    <string name="textDespues2Forestal"> - No se exponga mucho tiempo al hump, puede asfixiarlo y harle perder el sentido</string>
+
+
+    <!--Sismo-->
+    <string name="textAntes1Sismo"> - Prepara tu plan familiar de protecion civil</string>
+    <string name="textAntes2Sismo"> - Organiza y participa en simulaciones de evacuacion</string>
+    <string name="textAntes3Sismo"> - Identifique las zonas seguras</string>
+    <string name="textAntes4Sismo"> - Revisa las instalaciones de gas y luz</string>
+    <string name="textAntes5Sismo"> - Almacena alimentos no perecederos y agua</string>
+
+    <string name="textDurante1Sismo"> - Alejete de ventanas y objetos que puedan caer</string>
+    <string name="textDurante2Sismo"> - Concerva la calma y ubicate en la zona segura</string>
+    <string name="textDurante3Sismo"> - Corta el suministro de gas y electricidad</string>
+    <string name="textDurante4Sismo"> - Alejate de postes, cables y marquesimas</string>
+    <string name="textDurante5Sismo"> - Estacionate alejaado de edificios altos</string>
+
+    <string name="textDuespues1Sismo"> - Revisa las condiciones de tu casa</string>
+    <string name="textDuespues2Sismo"> - No enciendas cerrillos o velas hasta asegurarte que no hay fugas de gas</string>
+    <string name="textDuespues3Sismo"> - Utiliza el telefono solo para emergencias</string>
+    <string name="textDuespues4Sismo"> - Mantente informado, no propagues rumores y atiende las recomendaciones de las autoridades</string>
+    <string name="textDuespues5Sismo"> - Recuerda que puede presentar replicas por que es importante mantenerse seguros</string>
+
+    <!--Concentraciones masivas-->
+    <string name="textAntes1Concen">   - Consulte lugare autorizados para la adquisicion de boletos, recomendaciones de seguridad, rutas de acceso y pronostico del tiempo</string>
+    <string name="textAntes2Concen">   - Evita llevar cinturones, mochilas o bolsas, encendedores, objetos de vidrio, punzocortantes, sombrillas y camaras</string>
+    <string name="textAntes3Concen">   - No olvides llevar identificacion oficial y fotos de tus acompañantes, tarjetas con tipo de sangre, condicines de salud, agua(si se permite), ropa, zapatos comodos de acuerdo a la temporada, y dinero necesaior</string>
+
+    <string name="textDurante1Concen"> - LLega con anticipacion</string>
+    <string name="textDurante2Concen"> - Ubica salidas de emergencia</string>
+    <string name="textDurante3Concen"> - Localiza el servicio medico</string>
+    <string name="textDurante4Concen"> - Acuerda con tus compañeros un punto de reunion</string>
+    <string name="textDurante5Concen"> - Concerve el orden, especialmente en espacios reducidos y pasillos</string>
+    <string name="textDurante6Concen"> - No suba bardas, marquesinas, barandales o templetes</string>
+    <string name="textDurante7Concen"> - Si hay condiciones de riesgo o inseguras, retirate</string>
+    <string name="textDurante8Concen"> - Respete las indicaciones de uso de las instalaciones</string>
+
+    <string name="textDespues1Concen"> - Espere unos minutos antes de salir y desaloja el lugar ordenadamentos</string>
+    <string name="textDespues2Concen"> - Evita aglomeraciones</string>
+    <string name="textDespues3Concen"> - Si sufriste algun accidente, solicita al personal que notifique tu situacion a tus familiares</string>
+    <string name="textDespues4Concen"> - Si extraviaste a tus compañeros, dirigete al punto de reunion</string>
+    <string name="textDespues5Concen"> - En caso de no encontrarlos, reportalos inmediatamente</string>
+
+    <!-- Tsunamis -->
+    <string name="textAntes1Tsunami"> - Estar atento a los centros que emiten alertas de tsunami</string>
+    <string name="textAntes2Tsunami"> - Enterate su tu hogar, escuela, lugar de trabajo o los lugares que sueles visitar estan en zonas de peligro o evacuacion de tsunami</string>
+    <string name="textAntes3Tsunami"> - Organizate con tu familia y desute el plan que tendran para prepararse par un desastre</string>
+    <string name="textAntes4Tsunami"> - Haz un plan y arma un kit de suministros para desastres</string>
+    <string name="textAntes5Tsunami"> - Busca rutas de evacuacion en los lugares que frecuentas</string>
+
+    <string name="textDurante1Tsunami"> - Conserve a calma</string>
+    <string name="textDurante2Tsunami"> - Alejate de las playa, rios, arrollos, zonas pantanosas, lagunas costeras y refugiate en zonas altas</string>
+    <string name="textDurante3Tsunami"> - No te detengas a observar el fonde marina</string>
+    <string name="textDurante4Tsunami"> - Si estas en una embarcacion, evita llegar al puerto en altamar el riesgo es menor</string>
+    <string name="textDurante5Tsunami"> - No utilices tu vehiculo para evacuar</string>
+    <string name="textDurante6Tsunami"> - Evita los puentes sobre cuerpo de agua</string>
+
+    <string name="textDespues1Tsunami"> - Permanece en un lugar seguro: puede pasar dias antes de que sea seguro regresar a la zaona afectada</string>
+    <string name="textDespues2Tsunami"> - Mantente informado: sigue las estaciones de radio o television con informacion oficial para saber donde refigiarte y que areas evitar</string>
+    <string name="textDespues3Tsunami"> - Limita las llamadas telefonicas solo a emergencias para no saturar las lineas</string>
+    <string name="textDespues4Tsunami"> - Informa a tus sere queridos que estas bien. Busca sitios web o redes sociales que activen la opcion de marcate como seguro</string>
+
+</resources>

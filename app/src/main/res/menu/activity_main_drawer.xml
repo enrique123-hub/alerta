@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_fenomenos"
+            android:icon="@drawable/ic_desastres"
+            android:title="@string/menu_fenomeno"/>
+        <item
+            android:id="@+id/nav_avisos"
+            android:icon="@drawable/ic_avisos"
+            android:title="@string/menu_avisos"/>
+        <item
+            android:id="@+id/nav_pronosticoClima"
+            android:icon="@drawable/ic_clima"
+            android:title="@string/menu_pronostico"/>
+        <item
+            android:id="@+id/nav_numeroEmergencia"
+            android:icon="@drawable/ic_telefono"
+            android:title="@string/menu_numEmergencia"/>
+        <item
+            android:id="@+id/nav_hacer_en_caso"
+            android:icon="@drawable/ic_quehacer"
+            android:title="@string/menu_hacerEnCasos"/>
+        <item
+            android:id="@+id/nav_mochilaEmergenccia"
+            android:title="@string/menu_mochila"/>
+    </group>
+</menu>
